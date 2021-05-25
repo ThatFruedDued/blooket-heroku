@@ -1,0 +1,15 @@
+{
+  "name": "blooketheroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "okr765",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
