@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const app = require('express')();
 
 (async() => {
   const box = "Space";
@@ -86,3 +87,9 @@ async function createAccount(){
     }
   } else {return;}
 }
+
+app.get('/', (req, res) => {
+  res.send("Running...");
+});
+
+app.listen(process.env.PORT || 8080);
